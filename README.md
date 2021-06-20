@@ -1,3 +1,3 @@
 # Algorithm Practice
 
-Solutions to algorithms that I've worked on from various sources.
+Solutions to algorithms that I've completed on from various sources.
