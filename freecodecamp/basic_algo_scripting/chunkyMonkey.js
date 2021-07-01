@@ -15,7 +15,7 @@ function chunkArrayInGroups(arr, size) {
 		const itemsLeft = arr.length - tracker;
 
 		if (itemsLeft < size && itemsLeft !== 0) {
-			// if itemsLeft is is less than size and not 0, do this:
+			// if itemsLeft is less than size and not 0, do this:
 			chunkArr.push(arr.slice(index, index + size));
 			chunkArr.push(arr.slice(tracker));
 			tracker += size;
