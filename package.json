@@ -19,6 +19,7 @@
   "homepage": "https://github.com/tchestnut85/algorithm-practice#readme",
   "dependencies": {
     "benchmark": "^2.1.4",
-    "date-fns": "^2.18.0"
+    "date-fns": "^2.18.0",
+    "jest": "^27.0.6"
   }
 }

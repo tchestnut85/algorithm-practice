@@ -3,8 +3,6 @@
 // - 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock.
 
 function timeConversion(str) {
-	console.log(str);
-
 	//Input - a string that represents a time in 12hour format (ex: 07:05:45PM)
 	// output - return the time string in 24hr clock format (ex: 19:05:45)
 
@@ -26,6 +24,7 @@ function timeConversion(str) {
 			hour === '12'
 				? (result = `12${hoursRemoved}`)
 				: (result = `${parseInt(hour) + 12}${hoursRemoved}`);
+			break;
 	}
 
 	// return the 24hr formarted string
