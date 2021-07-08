@@ -4,6 +4,7 @@
 function spinalCase(str) {
 	// regex to split the string on non-word characters and spaces
 	const regex = /[\W_]/g;
+	// regex to target a lowercase letter followed by an uppercase letter
 	const capRegex = /([a-z])([A-Z])/g;
 
 	// use capRegex to replace uppercase letters that don't have spaces
@@ -19,8 +20,4 @@ function spinalCase(str) {
 	return newStr;
 }
 
-// TESTS
-spinalCase('This Is Spinal Tap'); // should return the string this-is-spinal-tap
-spinalCase('thisIsSpinalTap'); // should return the string this-is-spinal-tap
-spinalCase('The_Andy_Griffith_Show'); // should return the string the-andy-griffith-show
-spinalCase('AllThe-small Things'); // should return the string all-the-small-things
+module.exports = spinalCase;
