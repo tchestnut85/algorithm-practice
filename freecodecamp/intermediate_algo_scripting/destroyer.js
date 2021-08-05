@@ -13,4 +13,20 @@ function destroyer(arr) {
 	return newArr;
 }
 
+// Solution using for loops
+// function destroyer(arr) {
+// const restArgs = [...arguments].slice(1);
+
+// 	const resultArr = [];
+
+// 	for (const item of arr) {
+// 		if (!restArgs.includes(item)) {
+// 			resultArr.push(item);
+// 		}
+// 	}
+
+// 	console.log(resultArr);
+// 	return resultArr;
+// }
+
 module.exports = destroyer;
