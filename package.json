@@ -1,25 +1,25 @@
 {
-  "name": "algorithm-practice",
-  "version": "1.0.0",
-  "description": "Solutions to algorithms that I've worked on from various sources.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tchestnut85/algorithm-practice.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tchestnut85/algorithm-practice/issues"
-  },
-  "homepage": "https://github.com/tchestnut85/algorithm-practice#readme",
-  "dependencies": {
-    "benchmark": "^2.1.4",
-    "date-fns": "^2.18.0",
-    "jest": "^27.0.6"
-  }
+	"name": "algorithm-practice",
+	"version": "1.0.0",
+	"description": "Solutions to algorithms that I've worked on from various sources.",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tchestnut85/algorithm-practice.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/tchestnut85/algorithm-practice/issues"
+	},
+	"homepage": "https://github.com/tchestnut85/algorithm-practice#readme",
+	"dependencies": {
+		"benchmark": "^2.1.4",
+		"date-fns": "^2.18.0",
+		"jest": "^27.0.6"
+	}
 }
